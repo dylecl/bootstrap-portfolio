@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lumen/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iqcNtN3rj6Y1HX/R0a3zu3ngmbdwEa9qQGHdkXwSRoiE+Gj71p0UNDSm99LcXiXV" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="dynamic-style/dynamic-style.png">
+    <header class="border-bottom border-primary" style="margin-bottom: 3%">
+            <!-- name -->
+            <div class="row" style="background:white">
+                <div class="name col-md col-sm-2 col-xs-1"  style="background:#007bff">
+                    <h1 style="color:white">Dylan LeClair</h1>
+                </div>
+                <!-- Nav Bar -->
+                <div class="col-md-4 col-sm-9 col-xs-9">
+                    <nav class="navbar navbar-expand-xs navbar-expand-sm navbar-expand-md navbar-light bg-white" style="border: none">>
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="index.html">About Me</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                        </ul>
+                </div>
+                </nav>
+            </div>
+        </header>
+    <!-- content -->
+    <div class="container border border-primary" width=80% style="background: white" style="margin-top:5%">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h1 class="me" style="color:#007bff">Contact Me</h1>
+            </div>
+
+
+        </div>
+        <div class="row stuff">
+            <!-- FORM -->
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Your Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name here">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+        </div>
+        <div class="form-group marginL">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary marginL paddingL">Submit</button>
+        </form>
+    </div>
+    </div>
+    <!-- footer -->
+    <nav class="navbar fixed-bottom navbar-light bg-primary">
+            <a class="navbar-brand mx-auto footer" href="portfolio.html">
+                copyright
+            </a>
+          </nav>
+</body>
+
+</html>
