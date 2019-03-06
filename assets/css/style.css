@@ -42,3 +42,6 @@ form {
     padding: 2px;
     margin: 0%;
 }
+a:link, a:visited {
+    color: white;
+}
