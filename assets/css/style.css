@@ -45,3 +45,7 @@ form {
 a:link, a:visited {
     color: white;
 }
+
+.col-md-6 {
+    margin-bottom: 1%
+}
